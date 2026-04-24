@@ -13,7 +13,7 @@ import (
 func main() {
 
 	if len(os.Args) < 2 {
-		fmt.Println("Use: populate Usage.xlsx ListPrice.xlsx")
+		fmt.Println("Use: populateoci Usage.xlsx ListPrice.xlsx")
 		return
 	}
 	fileUsage := os.Args[1]
