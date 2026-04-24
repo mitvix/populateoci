@@ -30,7 +30,15 @@ go build -o populateoci.exe main.go
 ./populateoci Usage.xlsx ListPrice.xlsx
 ```
 
-
 ## In the end
 
 A new filename will be created with "NewUsageFile.xlsx".
+
+## Requirement
+
+CUR Data: A compiled XLSX file including all line items from the Oracle OCI Cost Usage Report for the desired period.
+
+Pricing Reference: An XLSX file mapping all SKUs to their unit prices.
+
+Structural Integrity: The column order in both spreadsheets must remain consistent with the requirements defined in the Go source code.
+
